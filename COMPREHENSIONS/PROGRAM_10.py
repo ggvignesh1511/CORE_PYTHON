@@ -1,0 +1,5 @@
+#10. generator to print the first generated values using next()
+gen = (i * i for i in range(1, 11))
+print(next(gen))
+print(next(gen))
+print(next(gen))
